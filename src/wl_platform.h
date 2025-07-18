@@ -456,7 +456,7 @@ typedef struct _GLFWlibraryWayland
 
         GLFWbool primaries[11];
         GLFWbool tfs[14];
-        GLFWbool intents[4];
+        GLFWbool intents[5];
     } colorManagerSupport;
 
     _GLFWofferWayland*          offers;
