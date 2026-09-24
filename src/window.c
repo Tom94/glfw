@@ -236,6 +236,8 @@ GLFWAPI GLFWwindow* glfwCreateWindow(int width, int height,
 
     window->doublebuffer = fbconfig.doublebuffer;
 
+    window->bitsPerSample = fbconfig.redBits;
+
     window->minwidth    = GLFW_DONT_CARE;
     window->minheight   = GLFW_DONT_CARE;
     window->maxwidth    = GLFW_DONT_CARE;
